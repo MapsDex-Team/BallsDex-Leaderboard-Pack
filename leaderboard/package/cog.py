@@ -31,7 +31,7 @@ log = logging.getLogger("ballsdex.packages.leaderboard")
 # Configuration constants
 TOP_PLAYER_LIMIT = [10, 20] # MIN, MAX
 ITEMS_PER_PAGE = 5 # How many players are shown on a page
-EXCLUDE_IDS = [] # A comma seperated list of User ID's to exclude from the leaderboard
+EXCLUDE_IDS = [996428228912742421] # A comma seperated list of User ID's to exclude from the leaderboard
 EXCLUDE_BOTS = True # Whether to exclude bots from the leaderboard
 
 
